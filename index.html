@@ -12,7 +12,7 @@
     />
     <title>theme-switcher</title>
   </head>
-  <body>
+  <body class="light">
     <div class="container">
       <h1>Theme Switcher</h1>
       <img
@@ -21,10 +21,11 @@
       />
       <p class="desc">Choose an theme of your choice</p>
       <div class="btn-grp">
-        <button>Dark</button>
-        <button>Light</button>
-        <button>Catcuppin</button>
+        <button onclick="dark()">Dark</button>
+        <button onclick="light()">Light</button>
+        <button onclick="catppuccin()">catppuccin</button>
       </div>
     </div>
+    <script src="./script.js"></script>
   </body>
 </html>
